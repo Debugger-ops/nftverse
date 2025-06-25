@@ -66,16 +66,18 @@ const Index = () => {
         <div className="nav-bar-inner">
           <div className="logo">NFTVerse</div>
           <div className="nav-links">
-            <a href="#">Explore</a>
-            <a href="#">Create</a>
-            <a href="/Collections">Collections</a>
+            <Link href="/Explore">Explore</Link>
+            <Link href="Create">Create</Link>
+            <Link href="/Collections">Collections</Link>
           </div>
           <div className="nav-actions">
             <div className="search-box">
               <Search className="search-icon" />
               <input type="text" placeholder="Search NFTs, collections..." />
             </div>
-            <Button className="gradient-button">Connect Wallet</Button>
+            <Link href="/ConnectWallet">
+              <Button className="gradient-button">Connect Wallet</Button>
+            </Link>
           </div>
         </div>
       </nav>
@@ -92,9 +94,14 @@ const Index = () => {
           The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens.
         </p>
         <div className="hero-buttons">
-          <Button className="gradient-button">Explore Now</Button>
-          <Button variant="outline" className="outline-button">Create NFT</Button>
+          <Link href="/Explore">
+            <Button className="gradient-button">Explore Now</Button>
+          </Link>
+          <Link href="/Create">
+            <Button variant="outline" className="outline-button">Create NFT</Button>
+          </Link>
         </div>
+
       </section>
 
       <section className="stats-section">
