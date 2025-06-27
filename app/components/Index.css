@@ -102,6 +102,7 @@
   border: none;
   color: white;
   font-weight: 600;
+  margin: 5px;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
   transition: all 0.3s ease;
@@ -363,7 +364,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
-  color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  color: rgb(2, 2, 2);
   font-size: 0.9rem;
 }
 
@@ -386,9 +388,10 @@
 }
 
 .price {
+  padding: 10px;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #ffd93d;
+  color: #eabb00;
 }
 
 /* CTA Section */
